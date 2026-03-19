@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto CNC</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body> 
+
+
+<!-- BARRA DE MENU -->
+<header class="navbar">
+
+<div class="logo">PRECISION</div>
+
+<nav>
+<ul>
+<li><a href="#inicio">INICIO</a></li>
+<li><a href="#industrias">SOLUCIONES POR INDUSTRIA</a></li>
+<li><a href="#maquinaria">MAQUINARIA</a></li>
+<li><a href="#tecnologia">TECNOLOGÍA Y SEGURIDAD</a></li>
+<li><a href="#layout">LAYOUT</a></li>
+<li><a href="#contacto">CONTACTO</a></li>
+</ul>
+</nav>
+
+<button class="btn-cotizar">Solicitar Cotización</button>
+
+</header>
+
+<!-- SECCION PRINCIPAL -->
+<section class="hero">
+<div class="hero-container">
+
+<div class="hero-left">
+<h3>REDUCE WASTE. OPTIMIZE PRODUCTION.</h3>
+<h1>PRECISION CNC TEXTILE SOLUTIONS</h1>
+<p class="highlight">18% MERMA REDUCTION</p>
+</div>
+
+<div class="hero-right">
+<button class="btn-cotizar grande">
+SOLICITAR COTIZACIÓN TÉCNICA
+</button>
+</div>
+
+</div>
+</section>
+
+<!-- INDUSTRIAS -->
+<section class="industrias">
+
+<h2>DESCUBRA SU SOLUCIÓN IDEAL POR INDUSTRIA</h2>
+
+<div class="cards">
+<div class="card active" onclick="cambiarIndustria('moda')">MODA RÁPIDA - SIC-B1630W110</div>
+<div class="card" onclick="cambiarIndustria('auto')">AUTOMOTRIZ - GY-HF1822</div>
+<div class="card" onclick="cambiarIndustria('marro')">MARROQUINERÍA - iGK-1625</div>
+</div>
+
+<!-- TABLA POR MAQUINA  -->
+<div class="contenido-industria">
+
+<img id="imagen-industria" src="images/maquina01.jpg">
+
+<table id="tabla-industria">
+<tr><th>Parámetro Técnico</th><th>Detalle de Ingeniería</th></tr>
+<tr><td>Potencia del Tubo Láser</td><td>110W (Tubo de vidrio CO2 de larga vida útil)</td></tr>
+<tr><td>Vida Útil del Tubo</td><td>8,000 - 10,000 horas (Bajo condiciones óptimas)</td></tr>
+<tr><td>Sistema de Control</td><td>DSP Ruida 6445 (Estabilidad industrial)</td></tr>
+<tr><td>Motores de Movimiento</td><td>Paso a paso trifásicos de alta resolución</td></tr>
+<tr><td>Transmisión</td><td>Bandas síncronas reforzadas con alma de acero</td></tr>
+<tr><td>Lente Focal</td><td>Seleniuro de Zinc (ZnSe) importado (Alta transmitancia)</td></tr>
+<tr><td>Sistema de Aire</td><td>Bomba de asistencia de aire para evitar flamas</td></tr>
+<tr><td>Voltaje de Operación</td><td>220V AC / 60Hz / 15A</td></tr>
+
+</table>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+<!-- TABLA COMPARATIVA -->
+<section class="tabla-comparativa">
+
+<h2>TABLA COMPARATIVA DE ESPECIFICACIONES</h2>
+
+<div class="contenedor-tabla">
+
+<table class="tabla-estilo">
+
+<tr>
+<th>PARÁMETRO CRÍTICO</th>
+<th>L6250<br>SIC-B1650W110</th>
+<th>QUILTER QY-IIIF1922</th>
+<th>CUCHILLA IGR-1625</th>
+</tr>
+
+<tr>
+<td>ÁREA DE TRABAJO</td>
+<td>1.6430m</td>
+<td>1800x200m Area</td>
+<td>18,000 PM</td>
+</tr>
+
+<tr>
+<td>POTENCIA</td>
+<td>110W CO2</td>
+<td>1100 CO2</td>
+<td>2500 BPM</td>
+</tr>
+
+<tr>
+<td>VELOCIDAD DE PUNTADA</td>
+<td>2500 CPM</td>
+<td>2500 RPM</td>
+<td>18,000 knife</td>
+</tr>
+
+<tr>
+<td>SOFTWARE DE CONTROL</td>
+<td>DSP Ruida</td>
+<td>DSP Ruida</td>
+<td>DSP Ruida</td>
+</tr>
+
+<tr>
+<td>CARACTERÍSTICAS DE SEGURIDAD</td>
+<td>Panasonic Servomotors</td>
+<td>Panasonic Servomotors</td>
+<td>Panasonic Servomotors</td>
+</tr>
+
+<tr>
+<td>SOPORTE POST-VENTA</td>
+<td>Soporte Post-venta</td>
+<td>Soporte Post-venta</td>
+<td>Maife</td>
+</tr>
+
+<tr>
+<td>CERTIFICACIONES CLAVE</td>
+<td>TRIPLE-PHASE PANASONIC</td>
+<td>TRIPLE-PHASE SERVOMOTORS</td>
+<td>FDA LENA ES STEPPERS</td>
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+</body>
+</html>
